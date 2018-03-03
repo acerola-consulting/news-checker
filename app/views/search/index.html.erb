@@ -1,0 +1,13 @@
+<div class="row">
+  <%= form_tag('/search', {class: 'col s12'}) do %>
+    <div class="row valign-wrapper" id="search-wrapper">
+      <div class="col s2"></div>
+      <div class="input-field col s6">
+        <%= text_field_tag :search_term, nil, placeholder: 'Enter URL'  %>
+      </div>
+      <div class="col s4">
+        <input class="waves-effect waves-light btn" type="submit" value="Search">
+      </div>
+    </div>
+  <% end %>
+</div>
