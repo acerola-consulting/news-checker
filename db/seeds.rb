@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Site.create(title: 'cnn.com', status: 'good source')
+Site.create(title: 'huffingtonpost.com', status: 'mixed bag')
+Site.create(title: 'naturalnews.com', status: 'bad source')
